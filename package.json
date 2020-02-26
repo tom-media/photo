@@ -1,0 +1,28 @@
+{
+  "name": "photography",
+  "version": "1.0.0",
+  "description": "tom's photog portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tom-media/photo.git"
+  },
+  "keywords": [
+    "photography",
+    "photo",
+    "portfolio"
+  ],
+  "author": "tom nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tom-media/photo/issues"
+  },
+  "homepage": "https://github.com/tom-media/photo#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "gulp": "^4.0.2"
+  }
+}
