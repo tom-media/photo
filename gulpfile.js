@@ -2,9 +2,9 @@ var gulp = require('gulp');
 var imageResize = require('gulp-image-resize');
  
 gulp.task('resize', function () {
-  return gulp.src('images/full/*.{jpg,png}')
+  return gulp.src('dist/full/*.{jpg,png}')
     .pipe(imageResize({
-      height : 300
+      height : 250
     }))
     .pipe(gulp.dest('dist/thumbnails'));
 });
