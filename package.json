@@ -22,7 +22,12 @@
   },
   "homepage": "https://github.com/tom-media/photo#readme",
   "dependencies": {
+    "axios": "^0.19.2",
     "bootstrap": "^4.4.1",
-    "gulp": "^4.0.2"
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-image-resize": "^0.13.1"
   }
 }
