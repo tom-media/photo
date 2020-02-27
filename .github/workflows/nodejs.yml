@@ -20,6 +20,7 @@ jobs:
     - run: npm install
     - run: npm run build --if-present
     - run: gulp resize --if-present
+    - run: node server.js
     - run: npm test
       env:
         CI: true
